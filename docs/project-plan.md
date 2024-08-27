@@ -81,3 +81,40 @@
 - React Documentation: https://reactjs.org/docs/getting-started.html
 - GitHub Pages Documentation: https://docs.github.com/en/pages
 - Node.js Documentation: https://nodejs.org/en/docs/
+
+portfolio-website/
+│
+├── public/
+│   ├── index.html                # Main HTML file
+│   └── favicon.ico               # Favicon
+│
+├── src/
+│   ├── assets/                   # Static assets (images, fonts)
+│   │   ├── profile.jpg           # Profile image
+│   │   └── project1.png          # Project images
+│   │
+│   ├── components/               # Reusable components
+│   │   ├── Header.js             # Navigation bar
+│   │   ├── Footer.js             # Footer
+│   │   ├── ProjectCard.js        # Project cards
+│   │   └── ContactForm.js        # Contact form (optional)
+│   │
+│   ├── pages/                    # Page components
+│   │   ├── Home.js               # Home page
+│   │   ├── About.js              # About page
+│   │   ├── Projects.js           # Projects page
+│   │   └── Contact.js            # Contact page
+│   │
+│   ├── App.js                    # Main App component, sets up routes
+│   ├── index.js                  # Entry point for React
+│   ├── styles/                   # CSS or SCSS files
+│   │   ├── App.css               # Global styles
+│   │   └── responsive.css        # Responsive design styles
+│   │
+│   └── utils/                    # Utility functions
+│       └── api.js                # API calls (if applicable)
+│
+├── .gitignore                    # Git ignore file
+├── package.json                  # Project dependencies and scripts
+├── README.md                     # Project documentation
+└── yarn.lock / package-lock.json # Dependency lock file
